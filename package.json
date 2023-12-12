@@ -2,7 +2,7 @@
   "name": "botwhatsappweb",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "encriptacion.js",
   "dependencies": {
     "agent-base": "^6.0.2",
     "archiver": "^5.3.2",
@@ -10,6 +10,7 @@
     "async": "^3.2.4",
     "balanced-match": "^1.0.2",
     "base64-js": "^1.5.1",
+    "bcrypt": "^5.1.1",
     "big-integer": "^1.6.51",
     "binary": "^0.3.0",
     "bl": "^4.1.0",
@@ -35,6 +36,7 @@
     "end-of-stream": "^1.4.4",
     "express": "^4.18.2",
     "extract-zip": "^2.0.1",
+    "faker": "^6.6.6",
     "fd-slicer": "^1.1.0",
     "find-up": "^4.1.0",
     "fluent-ffmpeg": "^2.1.2",
@@ -118,7 +120,7 @@
   },
   "scripts": {
     "example": "nodemon example.js",
-    "start": "nodemon index.js",
+    "start": "nodemon encriptacion.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
